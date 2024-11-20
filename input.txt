@@ -1,0 +1,8 @@
+TEST    START   2000
+        LDX     LENGTH
+        LDCH    CHAR
+        STCH    BUFFER
+LENGTH  RESW    1
+CHAR    BYTE    C'EOF'
+BUFFER  RESB    20
+        END     TEST
