@@ -27,10 +27,11 @@ git clone https://github.com/yo-msh/SIC-2-Pass-Assembler.git
 cd SIC-2-Pass-Assembler
 ```
 
+- While changing the **"input.txt"** make sure to add all the correspoding opcodes in **"opcode.cpp"** 
+
 ### To Run
 ```cpp
 g++ -o main.cpp
 ./main
 ```
 
-### While changing the "input.txt" make sure to add all the correspoding opcodes in "opcode.cpp" 
